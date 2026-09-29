@@ -5,14 +5,19 @@ Android downloads for the FieldTrack student mobile app.
 - [Download the latest APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/releases/latest/download/INSITE.apk)
 - [View the current release](https://github.com/jorgencanaveral02-dev/INSITE-APK/releases/latest)
 
-The `INSITE.apk` file in this repository is version 1.0.7 (build 13).
+The `INSITE.apk` file in this repository is version 1.0.7 (build 14).
 
 Default API: `https://insitenc.me/api`
 
-SHA-256: `0E227CD45D771C757658CFD0CBE430F5E7973E428B958B7B237EDFC59BBB0745`
+SHA-256: `C0E61B81E65459F0D1414A48176A71132BA94A2D85667C77B64DDC1A7B2C450B`
 
-Includes the M.I. registration field with a two-letter limit and the server-controlled demo registration and document submission flows.
+Includes the CS/HM mobile Pre-Deployment and Deployment Clearance fix:
 
-Source: [2be2e5e](https://github.com/jorgencanaveral02-dev/INSITE/commit/2be2e5e2bddafd2815992b804d527394f19176e1).
+- Pre-Deployment shows the full applicable starting checklist and document actions.
+- Deployment Clearance shows final readiness, approvals, pending reasons, and the official start date.
+- Existing MOA and endorsement approval prerequisites remain enforced.
+- COED keeps its existing workflow.
 
-Verified with Flutter analysis for the account setup screen, a release APK build, and Android APK signature checks.
+Source: [14e3cdf](https://github.com/jorgencanaveral02-dev/INSITE/commit/14e3cdf40aa4ccdf2599cdad272188b8a5549dc8).
+
+Verified with 33 focused backend checks, 13 mobile widget tests, a release APK build, Android signature continuity, and authenticated CS/HM public API checks. Actual phone behavior has not been tested.
