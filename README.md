@@ -2,25 +2,18 @@
 
 Android downloads for the FieldTrack student mobile app.
 
-- [Download the latest APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/releases/latest/download/INSITE.apk)
-- [View the current release](https://github.com/jorgencanaveral02-dev/INSITE-APK/releases/latest)
+[Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version 1.0.7 (build 15).
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 26)**.
 
-Default API: `https://insitenc.me/api`
+- Package: `com.fieldtrack.student`
+- Default API: `https://insitenc.me/api`
+- APK size: 77,067,578 bytes
+- SHA-256: `c82404b8f5dd1cd3258ead6895cbffa4a4a1e3bb2cd379951523bc295a6a1981`
+- Built from [source 14ae927](https://github.com/jorgencanaveral02-dev/INSITE/commit/14ae927df925860d4c6d389544e2fc0fcc62b1b4).
 
-SHA-256: `A2DB14D61ACC8291A13525AE0D864464B7BE1C6953A0CFD457BAD2AAC4E5B567`
+Rebuilt the current Flutter app and removed an identical duplicate company-profile API declaration that prevented compilation. The existing package, API default, app behavior, and signing certificate are retained.
 
-Includes the CS/HM Pre-Deployment and Deployment Clearance flow plus the DEMO upload fix:
+Verified release compilation, Android v2 signing, signing certificate continuity with Build 25, three API URL tests, service analysis, PHP syntax, and live QR/download routing. Existing merge conflicts and duplicate mock declarations prevent the HTE widget test files from running. Physical Android installation has not been tested.
 
-- Pre-Deployment shows the full applicable starting checklist and document actions.
-- Deployment Clearance shows final readiness, approvals, pending reasons, and the official start date.
-- Existing MOA and endorsement approval prerequisites remain enforced.
-- COED keeps its existing workflow.
-- The app confirms the selected MOA or Acceptance filename before uploading.
-- DEMO-marked files on real accounts are checked separately from official submissions.
-- Superseded demo documents no longer appear as the current MOA.
-
-Source: [a90f8b1](https://github.com/jorgencanaveral02-dev/INSITE/commit/a90f8b1ba766b830db7c95cc181ec22aabec4ffc).
-
-Verified with PHP syntax checks, Flutter analysis, five mobile flow tests, a release APK build, and signing-certificate continuity with build 14. Actual phone behavior has not been tested.
+Opening the login QR starts the APK download directly. Android may ask you to confirm the download and allow installation from your browser.
