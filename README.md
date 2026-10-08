@@ -4,16 +4,14 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (Build 30)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 31)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
-- APK size: 77,526,394 bytes
-- SHA-256: `e4fac5ef9e70c2df45685c802932051ba3c05a50b4c80c65bf6e1e70f61b61a1`
-- Source revision: `0b49f9299ece7c9b06c01327745f1759c54cbb93` in `jorgencanaveral02-dev/INSITE`, with the build number increased from 29 to 30.
+- APK size: 77628198 bytes
+- SHA-256: `0ad49e18ac34373298658c57be8582f1c084640cf3db2957f7dceee3ede53c3c`
+- Source revision: `84cbf6bd4f31b59cb1876eb1ba355dd2f5bbeecd` in `jorgencanaveral02-dev/INSITE` plus uncommitted working-tree changes, with the build number increased from 30 to 31.
 
-Build 30 uses Fill Out & Print and Capture Signed Pages with aligned document buttons. History loads Reports and Attendance independently, with section-specific Retry and refresh, clear loading/empty/error displays, and retained records after failed refresh. Text, badges, and attendance chips wrap on narrow screens. A Reports 503 receives an unavailable display; this APK does not repair the server/database. The package, API default, and signing certificate are retained. A custom local API URL can be entered from the login screen's API Server URL settings.
+Build 31 (EDUC Field Study): School ID is camera-only (front and back); the Student Information Sheet offers Print / Share a copy after it is submitted; requirement cards show short wording and the real action (Take photo, Fill in and submit, Print, sign, photograph, Photograph signed paper); the garbled School ID description is fixed; "Use earlier upload" replaces "Confirm Existing Document" with an explanation and no history until something is submitted; correction notes are styled by status; the Attendance screen shows a live OpenStreetMap with the assigned radius.
 
-Verified release compilation, Android v2 signing, signing certificate continuity with the previously published Build 29, 68 focused History tests, all three API URL tests, and clean analysis on the affected History files. History visual checks covered 320px and 390px widths with enlarged text. Physical Android installation has not been tested.
-
-The current login QR uses the stable download link above, which serves the latest APK committed to this repository. Android may ask you to confirm the download and allow installation from your browser.
+The signing certificate is unchanged from Build 30 (SHA-256 b940f541...b68d). Physical Android installation has not been tested. The login QR uses the stable download link above, which serves the latest APK committed to this repository. Android may ask you to confirm the download and allow installation from your browser.
