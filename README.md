@@ -4,7 +4,7 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (Build 36)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 37)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
@@ -19,3 +19,5 @@ This build needs the matching server update on `https://insitenc.me` (the `esign
 The signing certificate is unchanged from Builds 30 to 33 (SHA-256 b940f541...b68d), so the app updates over the installed one. The E-sign sheet has not been tested on a physical Android phone. The login QR uses the stable download link above, which serves the latest APK committed to this repository. Android may ask you to confirm the download and allow installation from your browser.
 
 Build 36: the document submission confirmation is now a short English line ("I confirm this document is correct, complete, and signed where required."). Same signing certificate as earlier builds, so it updates over the installed app.
+
+Build 37: EDUC students can photograph a signed Notarized Field Study Waiver or Medical Certificate directly (**Already signed? Photograph it now**) without filling in the form first. A saved School ID or other document is no longer reported as "Upload Failed". Same signing certificate as earlier builds, so it updates over the installed app.
