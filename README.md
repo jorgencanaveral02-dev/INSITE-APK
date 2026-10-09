@@ -4,12 +4,12 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (Build 38)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 39)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
 - APK size: 77627558 bytes
-- SHA-256: `26c276d2c41a0e18e7a593e6a4018ce4df0a008000bf48a46b91b0b1dbab492b`
+- SHA-256: `e14e29eb88d0f17f5ad2750bd209513dc331b72ce9c0f5172315e47a556f8143`
 - Source revision: `95b15eb64bdf3d6fa1127dc709de8ae483428a37` in `jorgencanaveral02-dev/INSITE` plus uncommitted working-tree changes, with the build number increased from 33 to 34.
 
 Build 34 (EDUC student app, attendance): after Time Out or Finish Day, EDUC (BSED/BEED) students see an **E-sign with research teacher** sheet. The student certifies first, then hands the phone to the research teacher on duty, who types a name and position (mobile number optional), accepts a declaration and draws a signature. No teacher account or email is needed. The phone must be at the school, and a signature given after the usual 30-minute window is flagged for the adviser. The Attendance card shows **Waiting for research teacher signature** and **Signed by research teacher**. Build 33 changes remain.
@@ -23,3 +23,5 @@ Build 36: the document submission confirmation is now a short English line ("I c
 Build 37: EDUC students can photograph a signed Notarized Field Study Waiver or Medical Certificate directly (**Already signed? Photograph it now**) without filling in the form first. A saved School ID or other document is no longer reported as "Upload Failed". Same signing certificate as earlier builds, so it updates over the installed app.
 
 Build 38: the Notarized Field Study Waiver accepts one or two photographed pages (Add page / Done), both from Already signed? Photograph it now and after printing it from the app. Same signing certificate as earlier builds, so it updates over the installed app.
+
+Build 39: for EDUC students Time In stays locked on Home and Attendance until the Field Study schedule has started (no schedule yet, or start date still ahead), and says why. Same signing certificate as earlier builds, so it updates over the installed app.
