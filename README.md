@@ -4,13 +4,13 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (Build 42)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 43)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
 - APK size: 74342705 bytes
-- SHA-256: `e532f2caa6d5b153382cef6531cafe108b61875e7df02c32436b7f53091e2ef0`
-- Source revision: `94f31e28f0b807883b089ae9d01b4487b447ce85` in `jorgencanaveral02-dev/INSITE`, with the build number increased from 41 to 42 in `InternShip/pubspec.yaml`.
+- SHA-256: `daabf3487493deb1ed7910501d692e8f92c14a38d2ff816247afb4e8a51cfaee`
+- Source revision: `94f31e28f0b807883b089ae9d01b4487b447ce85` in `jorgencanaveral02-dev/INSITE` plus uncommitted working-tree changes, with the build number increased from 42 to 43 in `InternShip/pubspec.yaml`.
 
 Build 34 (EDUC student app, attendance): after Time Out or Finish Day, EDUC (BSED/BEED) students see an **E-sign with research teacher** sheet. The student certifies first, then hands the phone to the research teacher on duty, who types a name and position (mobile number optional), accepts a declaration and draws a signature. No teacher account or email is needed. The phone must be at the school, and a signature given after the usual 30-minute window is flagged for the adviser. The Attendance card shows **Waiting for research teacher signature** and **Signed by research teacher**. Build 33 changes remain.
 
@@ -27,3 +27,5 @@ Build 38: the Notarized Field Study Waiver accepts one or two photographed pages
 Build 39: for EDUC students Time In stays locked on Home and Attendance until the Field Study schedule has started (no schedule yet, or start date still ahead), and says why. Same signing certificate as earlier builds, so it updates over the installed app.
 
 Build 42: rebuilt the current Flutter source. This release process changes only the build number. Package `com.fieldtrack.student`, the default API, and the existing QR download URL are preserved. APK v2 signing was verified with the same certificate as Build 39. The three API-base-URL tests passed. Physical Android installation has not been tested.
+
+Build 43: for CS students all documents are now one list on the **OJT Documents** card, separated by **Print, sign and photograph**, **Upload**, **During OJT** and **After OJT**; the Resume / CV moved into it. CS and HM uploads are no longer shown as being scanned (steps are Uploading, Making sure the file opens, Saving; the result reads **Submission complete**), and the COR/COE of CS/HM is reviewed by staff. This build needs the matching server update on `https://insitenc.me` (the `resume_cv` OJT requirement and the COR/COE manual review); without it the Resume does not appear in the list. Same signing certificate as earlier builds (SHA-256 b940f541...b68d), so it updates over the installed app. Physical Android installation has not been tested.
