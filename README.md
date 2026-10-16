@@ -4,13 +4,13 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (Build 44)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (versionCode 2)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
-- APK size: 74556061 bytes
-- SHA-256: `95571f2e9fd2868c1b0b8bee791e55eee2b2f5fed1f9889451922164335efec9`
-- Source revision: `3d5fa3c` in `jorgencanaveral02-dev/INSITE` plus the build number increased from 43 to 44 in `InternShip/pubspec.yaml`.
+- APK size: 74523373 bytes
+- SHA-256: `3536ed58f3e2f3b97d387da9522a1a688eebfbcd9d7a8867062270291a9e56c0`
+- Source revision: `4aada89` in `jorgencanaveral02-dev/INSITE` plus the uncommitted working-tree changes of 2026-10-16 (signed-capture, medical multi-page, CS Student Information print); `InternShip/pubspec.yaml` version set to 1.0.0+2.
 
 Build 34 (EDUC student app, attendance): after Time Out or Finish Day, EDUC (BSED/BEED) students see an **E-sign with research teacher** sheet. The student certifies first, then hands the phone to the research teacher on duty, who types a name and position (mobile number optional), accepts a declaration and draws a signature. No teacher account or email is needed. The phone must be at the school, and a signature given after the usual 30-minute window is flagged for the adviser. The Attendance card shows **Waiting for research teacher signature** and **Signed by research teacher**. Build 33 changes remain.
 
@@ -31,3 +31,5 @@ Build 42: rebuilt the current Flutter source. This release process changes only 
 Build 43: for CS students all documents are now one list on the **OJT Documents** card, separated by **Print, sign and photograph**, **Upload**, **During OJT** and **After OJT**; the Resume / CV moved into it. CS and HM uploads are no longer shown as being scanned (steps are Uploading, Making sure the file opens, Saving; the result reads **Submission complete**), and the COR/COE of CS/HM is reviewed by staff. This build needs the matching server update on `https://insitenc.me` (the `resume_cv` OJT requirement and the COR/COE manual review); without it the Resume does not appear in the list. Same signing certificate as earlier builds (SHA-256 b940f541...b68d), so it updates over the installed app. Physical Android installation has not been tested.
 
 Build 44: CS students get **DTR Activities** (NC CS OJT Form 4) on the OJT Documents card: log Date / Activities / Hours per day with autosave, print it any time, and photograph the signed copy (one photo per printed page). **DTR Hours** now shows the logged hours as a suggestion when encoding a cutoff. This build needs the matching server update on `https://insitenc.me` (the `dtr_activities` endpoint and catalog row); without it the DTR Activities screen reports an error. Same signing certificate as earlier builds (SHA-256 b940f541...b68d), so it updates over the installed app. Physical Android installation has not been tested.
+
+Version code 2 (2026-10-16): rebuilt from the current Flutter source (medical certificate with several photos, CS Student Information print, signed-capture updates). Same signing certificate as earlier builds (SHA-256 b940f541...b68d). The version code restarted from 44 to 1 in the source, so a phone that still has an old build with a higher version code must uninstall it before installing this one. Physical Android installation has not been tested.
