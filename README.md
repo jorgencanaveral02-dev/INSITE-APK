@@ -4,13 +4,15 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (versionCode 3)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 46)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
-- APK size: 74539949 bytes
-- SHA-256: `a6697d00ce42c36e9ead0f49d4e6ca55f9e712271926e90e66bb7cd5139f594f`
-- Source revision: `4aada89` in `jorgencanaveral02-dev/INSITE` plus the uncommitted working-tree changes of 2026-10-16 (signed-capture, medical multi-page, CS Student Information print); `InternShip/pubspec.yaml` version set to 1.0.0+3 (2026-10-16, plus the multi-photo Practicum Updates / Weekly Report changes).
+- APK size: 74523565 bytes
+- SHA-256: `5ecc0105e356b3a35747fe5b8781169cd79f26f62fef020ab9b8540126419dac`
+- Source revision: `e4c59a3c362a9e62b95a734cd281810abcc3c587` in `jorgencanaveral02-dev/INSITE`; rebuilt on 2026-10-20 with the existing version `1.0.0+46`.
+
+Build 46 DTR update (2026-10-20): **DTR Hours** explains that students can submit during a cutoff or after it ends. With the matching server update, CS, HM, and EDUC/COED students can submit ongoing and past cutoffs while keeping the 1-15 / 16-month-end periods, elapsed placement-day limits, signed DTR proof, and Checked locks. The full last cutoff day remains ongoing. Package, API configuration, and signing certificate are unchanged; Android v2 signing and the compiled DTR text were verified. Physical Android installation has not been tested.
 
 Build 34 (EDUC student app, attendance): after Time Out or Finish Day, EDUC (BSED/BEED) students see an **E-sign with research teacher** sheet. The student certifies first, then hands the phone to the research teacher on duty, who types a name and position (mobile number optional), accepts a declaration and draws a signature. No teacher account or email is needed. The phone must be at the school, and a signature given after the usual 30-minute window is flagged for the adviser. The Attendance card shows **Waiting for research teacher signature** and **Signed by research teacher**. Build 33 changes remain.
 
