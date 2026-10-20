@@ -4,13 +4,19 @@ Android downloads for the FieldTrack student mobile app.
 
 [Download the current APK](https://github.com/jorgencanaveral02-dev/INSITE-APK/raw/refs/heads/main/INSITE.apk)
 
-The `INSITE.apk` file in this repository is version **1.0.0 (Build 46)**.
+The `INSITE.apk` file in this repository is version **1.0.0 (Build 47)**.
 
 - Package: `com.fieldtrack.student`
 - Default API: `https://insitenc.me/api`
-- APK size: 74523565 bytes
-- SHA-256: `5ecc0105e356b3a35747fe5b8781169cd79f26f62fef020ab9b8540126419dac`
-- Source revision: `e4c59a3c362a9e62b95a734cd281810abcc3c587` in `jorgencanaveral02-dev/INSITE`; rebuilt on 2026-10-20 with the existing version `1.0.0+46`.
+- APK size: 74539949 bytes
+- SHA-256: `f568409601e4b2b276a0fc87c59509148a723fc17bb2625f8774d0028342ac0e`
+- Source revision: `136f4a4a71549c2642c05dcfa44ddbc13260693a` from the FieldTrack workspace, with the release-only version bump to `1.0.0+47`.
+
+Build 47 (2026-10-20): rebuilt the current student app with self-service **DTR Hours**. Submitted hours count immediately, students can update hours and proof, and the app no longer shows a staff-review waiting state. The matching server update makes Dean and Adviser DTR pages view-only and allows student updates to previously checked cutoffs. Signed proof, placement limits, revision history, and upload-month monitoring are preserved.
+
+Verified: 27 focused DTR/API tests, package and build number, the compiled self-service DTR text, and Android v2 signing with the same certificate as Build 46. The default API and existing QR/download URL are unchanged. Physical Android installation has not been tested.
+
+## Previous builds
 
 Build 46 DTR update (2026-10-20): **DTR Hours** explains that students can submit during a cutoff or after it ends. With the matching server update, CS, HM, and EDUC/COED students can submit ongoing and past cutoffs while keeping the 1-15 / 16-month-end periods, elapsed placement-day limits, signed DTR proof, and Checked locks. The full last cutoff day remains ongoing. Package, API configuration, and signing certificate are unchanged; Android v2 signing and the compiled DTR text were verified. Physical Android installation has not been tested.
 
